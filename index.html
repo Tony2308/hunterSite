@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    
+    <title>hunters initiative</title>
+
+    <style>
+
+       @media screen and ( max-width:780px ) {
+        .menu li { 
+            list-style: none;
+        }
+
+        .menu {
+
+        display: block;
+        position: fixed;
+        transition: 0.7s;
+        padding: 2em 0em;
+        margin: 0;
+        height: 100%;
+       right: -100%;
+        width: 40%;
+        top: 0%;
+        background-color: #181818;
+        min-width: auto;
+        z-index: 0;
+            
+        }
+
+        #menu-toggle:checked ~ .menu {
+            
+            right: 0;
+
+        }
+ 
+       }
+        
+    </style>
+
+</head>
+
+<body class="font-sans">
+
+    <header class="flex justify-between items-baseline p-5 bg-black text-white" >
+        <h1 ><span class="text-m md:text-3xl  font-extrabold text-yellow-500" >Hi</span>  </h1>
+        <input type="checkbox" id="menu-toggle" class="hidden">
+        <ul class="menu font-bold space-x-4 md:flex  text-center">
+            <li class=""><a href="about.html">About us</a>  </li>
+            <li class=""><a href="community.html">Community</a>  </li>
+            <li class=""><a href="partners.html">Partners</a>  </li>
+            <li class=""><a href="blog.html">Blog</a>  </li>
+            <li class=" bg-yellow-500 "><a href="donate.html" class="p-4">Donate</a>  </li>
+
+            <label for="menu-toggle" class="md:hidden lg:hidden p-3">
+                <i class="fas fa-times"></i>
+            </label>
+        </ul>
+        
+        <label for="menu-toggle" class="md:hidden lg:hidden">
+            <i class="fas fa-bars"></i>
+        </label>
+        
+    </header>
+
+    <section class=" flex flex-col justify-center items-center min-w-100vw min-h-screen max-h-auto  bg-opacity-5 bg-cover bg-center space-y-5 " style="background-image:linear-gradient(black,70%,transparent), url('/img/landing\ img.jpg')">
+        <div class="w-80% max-h-auto mb-5">
+            <h1 class="text-white ">
+                <span class=" text-2xl font-bold tracking-wider md:text-6xl " >Hunters</span> 
+                <span class=" text-xl px-2 text-yellow-500 md:text-4xl md:font-normal">initiative</span> 
+            </h1>
+        </div>
+
+         <div>
+            <h3 class="text-white font-extralight md:text-3xl"> programming  for sustainable future</h3>
+         </div>  
+         <div class="pt-5">
+            <button class="text-2xl bg-yellow-600 p-3 font-lighter"> Sign in </button>
+         </div> 
+            
+        
+    </section>
+
+    <section class=" flex flex-col  items-center justify-evenly md:flex-row  mr-5 ml-5   min-h-screen max-h-auto   " >
+        
+        <div class="w-80vw text-center md:max-w-1/2 flex-col items-center justify-around flex-wrap">
+            <h2 class=" text-2xl md:text-5xl font-lighter mb-4" >Passionate about coding? </h2>
+            <h2 class=" text-xl md:text-xl font-bold">Register today for free</h2> 
+            
+            
+        </div> 
+        <div class="w-1  md:w-1/2 flex-col items-center justify-center text-start ">
+            <h2 class="text-xl md:text-2xl font-lighter mb-5">Learn skills in</h2>
+            <hr class="m-5">
+            <ul class="space-y-5">
+                <li><i class="fas fa-check fa-xs text-green-400 mx-3"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li><i class="fas fa-check fa-xs text-green-400 mx-3"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li><i class="fas fa-check fa-xs text-green-400 mx-3"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li><i class="fas fa-check fa-xs text-green-400 mx-3"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li><i class="fas fa-check fa-xs text-green-400 mx-3"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+            
+        </div>
+     
+     
+    </section>
+
+    <section class=" flex flex-col  items-center justify-evenly   text-yellow-600   min-h-screen max-h-auto  bg-gray-900 " >
+        
+        <div class="w-100vw text-center flex-col items-center justify-around ">
+            <h2 class=" text-xl md:text-5xl font-lighter m-6" >Our community </h2>
+            <h3 class=" text-xl font-lighter">We are changing lives together</h3> 
+            
+            
+        </div> 
+        <div class="flex flex-row w-100vw  max-h-auto  flex-wrap items-center justify-around  min-h-screen">
+            <div class="flex flex-col p-5 m-5  md:w-1/3 border-2">
+                <div class=" flex flex-col">
+                    <i class="fas fa-user fa-5x"></i>  
+                    <h5 class="font-bold">Saba international</h5>
+                    <h6>Lorem ipsum</h6>
+                </div>
+                <div class="">
+                
+                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, ducimus illo eos, 
+                    quod animi tempora voluptatibus ipsa veritatis blanditiis nemo modi ab dignissimos 
+                    neque earum suscipit odit eaque voluptate similique!</p>
+                </div>
+                
+            </div>
+            <div class="flex flex-col p-5 m-5 md:w-1/3">
+                <div class=" flex flex-col">
+                    <i class="fas fa-user fa-5x"></i>  
+                    <h5 class="font-bold">Newdawn kenya</h5>
+                    <h6>Lorem ipsum</h6>
+                </div>
+                <div class="">
+                
+                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, ducimus illo eos, 
+                    quod animi tempora voluptatibus ipsa veritatis blanditiis nemo modi ab dignissimos 
+                    neque earum suscipit odit eaque voluptate similique!</p>
+                </div>
+                
+            </div>
+            <div class="flex flex-col p-5 m-5 md:w-1/3">
+                <div class=" flex flex-col">
+                    <i class="fas fa-user fa-5x"></i>  
+                    <h5 class="font-bold">The nest Kenya</h5>
+                    <h6>Lorem ipsum</h6>
+                </div>
+                <div class="">
+                
+                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, ducimus illo eos, 
+                    quod animi tempora voluptatibus ipsa veritatis blanditiis nemo modi ab dignissimos 
+                    neque earum suscipit odit eaque voluptate similique!</p>
+                </div>
+                
+            </div>
+            <div class="flex flex-row p-5 m-5 md:w-1/3">
+                <div class=" flex flex-col">
+                    <i class="fas fa-user fa-5x"></i>  
+                    <h5>Bethel outreach</h5>
+                    <h6>Lorem ipsum</h6>
+                </div>
+                <div class="">
+                
+                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, ducimus illo eos, 
+                    quod animi tempora voluptatibus ipsa veritatis blanditiis nemo modi ab dignissimos 
+                    neque earum suscipit odit eaque voluptate similique!</p>
+                </div>
+                
+            </div>
+            
+        </div>
+     
+     
+    </section>
+    <section class=" flex flex-col  items-center justify-evenly md:flex-row     min-h-screen max-h-auto   " >
+        
+        <div class="w-100vw text-center md:max-w-50vw flex-col items-center justify-around flex-wrap">
+            <h2 class=" text-2xl md:text-5xl font-lighter mb-4" >Passionate about coding? </h2>
+            <h2 class=" text-xl font-lighter">Register today for free</h2> 
+            
+            
+        </div> 
+        <div class="w-100vw  md:w-60% flex-col items-center justify-center text-start ">
+            <h2 class=" text-2xl font-bold mb-5">Learn skills in</h2>
+            <hr class="m-5">
+            <form action="submit">
+                
+            </form>
+            
+        </div>
+     
+     
+    </section>
+
+    <footer class=" flex flex-col justify-center items-center bg-gray-900 w-100vw min-h-40vh pb-8 space-y-5"> 
+        <ul class=" flex text-yellow-400 text-xl space-x-5 w-auto justify-center mt-6">
+            <li class="p-1"><a href="about.html">About us</a>  </li>
+            <li class="p-1"><a href="community.html">Community</a>  </li>
+            <li class="p-1"><a href="partners.html">Partners</a>  </li>
+            <li class="p-1"><a href="blog.html">Blog</a>  </li>
+        </ul>
+        <div class="flex w-auto justify-center py-4">
+            <i class="fab fa-twitter fa-m p-1 mx-1 text-blue-600 "></i>
+            <i class="fa fa-facebook fa-m p-1 mx-1 text-blue-800 "></i>
+            <i class="fa fa-instagram fa-m p-1 mx-1 text-red-600 "></i>
+            <i class="fa fa-github fa-m p-1 mx-1 text-white-300 "></i>
+            
+        </div>
+    </footer>
+
+</body>
+<script src="https://kit.fontawesome.com/798eadb371.js" crossorigin="anonymous"></script>
+</html>
