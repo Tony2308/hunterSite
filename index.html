@@ -46,7 +46,7 @@
 
 </head>
 
-<body class="font-sans">
+<body class="font-sans text-center">
 
     <header class="flex justify-between items-baseline p-5 bg-black text-white" >
         <h1 ><span class="text-m md:text-3xl  font-extrabold text-yellow-500" >Hi</span>  </h1>
@@ -56,7 +56,7 @@
             <li class=""><a href="community.html">Community</a>  </li>
             <li class=""><a href="partners.html">Partners</a>  </li>
             <li class=""><a href="blog.html">Blog</a>  </li>
-            <li class=" bg-yellow-500 "><a href="donate.html" class="p-4">Donate</a>  </li>
+            <li class=" bg-yellow-500 px-4"><a href="donate.html">Donate</a>  </li>
 
             <label for="menu-toggle" class="md:hidden lg:hidden p-3">
                 <i class="fas fa-times"></i>
@@ -69,8 +69,8 @@
         
     </header>
 
-    <section class=" flex flex-col justify-center items-center min-w-100vw min-h-screen max-h-auto  bg-opacity-5 bg-cover bg-center space-y-5 " style="background-image:linear-gradient(black,70%,transparent), url('/img/landing\ img.jpg')">
-        <div class="w-80% max-h-auto mb-5">
+    <section class=" flex flex-col justify-center items-center min-w-full min-h-screen max-h-auto  bg-opacity-5 bg-cover bg-center space-y-5 " style="background-image:linear-gradient(black,70%,transparent), url('/img/landing.jpg')">
+        <div class="w-full max-h-auto mb-5">
             <h1 class="text-white ">
                 <span class=" text-2xl font-bold tracking-wider md:text-6xl " >Hunters</span> 
                 <span class=" text-xl px-2 text-yellow-500 md:text-4xl md:font-normal">initiative</span> 
@@ -78,7 +78,7 @@
         </div>
 
          <div>
-            <h3 class="text-white font-extralight md:text-3xl"> Lorem, ipsum dolor sit amet consectetur </h3>
+            <h3 class="text-white font-extralight md:text-xl"> Lorem, ipsum dolor sit amet consectetur </h3>
          </div>  
          <div class="pt-5">
             <button class="text-2xl bg-yellow-600 p-3 font-lighter"> Sign in </button>
@@ -89,16 +89,16 @@
 
     <section class=" flex flex-col  items-center justify-evenly md:flex-row  mr-5 ml-5   min-h-screen max-h-auto   " >
         
-        <div class="w-80vw text-center md:max-w-1/2 flex-col items-center justify-around flex-wrap">
-            <h2 class=" text-2xl md:text-5xl font-lighter mb-4" >Passionate about coding? </h2>
-            <h2 class=" text-xl md:text-xl font-bold">Register today for free</h2> 
+        <div class="w-full text-center md:max-w-1/2 flex-col items-center justify-around flex-wrap">
+            <h2 class=" text-2xl md:text-5xl font-bold mb-4" >Passionate about coding? </h2>
+            <h2 class=" text-xl md:text-xl font-lighter">Register today for free</h2> 
             
             
         </div> 
-        <div class="w-1  md:w-1/2 flex-col items-center justify-center text-start ">
-            <h2 class="text-xl md:text-2xl font-lighter mb-5">Learn skills in</h2>
+        <div class="w-100vw  md:w-1/2 flex-col items-center justify-center text-start ">
+            <h2 class="text-s md:text-xl font-lighter mb-5">Learn skills in</h2>
             <hr class="m-5">
-            <ul class="space-y-5">
+            <ul class="space-y-5 text-sm md:text-2xl">
                 <li><i class="fas fa-check fa-xs text-green-400 mx-3"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                 <li><i class="fas fa-check fa-xs text-green-400 mx-3"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                 <li><i class="fas fa-check fa-xs text-green-400 mx-3"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
@@ -120,7 +120,7 @@
             
         </div> 
         <div class="flex flex-row w-100vw  max-h-auto  flex-wrap items-center justify-around  min-h-screen">
-            <div class="flex flex-col p-5 m-5  md:w-1/3 border-b-2 space-y-7">
+            <div class="flex flex-col p-5 m-5  md:w-1/3 border-b-2 border-yellow-700 space-y-7">
                 <div class=" flex flex-col">
                     <i class="fas fa-user fa-5x"></i>  
                     <h5 class="font-bold">Saba international</h5>
@@ -162,7 +162,7 @@
                 </div>
                 
             </div>
-            <div class="flex flex-col p-5 m-5  md:w-1/3 border-b-2 space-y-7 ">
+            <div class="flex flex-col p-5 m-5  md:w-1/3 border-b-2 space-y-7 index-10">
                 <div class=" flex flex-col">
                     <i class="fas fa-user fa-5x"></i>  
                     <h5>Bethel outreach</h5>
@@ -183,18 +183,27 @@
     </section>
     <section class=" flex flex-col  items-center justify-evenly md:flex-row     min-h-screen max-h-auto   " >
         
-        <div class="w-100vw text-center md:max-w-50vw flex-col items-center justify-around flex-wrap">
+        <div class="w-4/5 text-center md:max-w-50vw flex-col items-center justify-around flex-wrap">
             <h2 class=" text-2xl md:text-5xl font-lighter mb-4" >Passionate about coding? </h2>
             <h2 class=" text-xl font-lighter">Register today for free</h2> 
             
             
         </div> 
-        <div class="w-100vw  md:w-60% flex-col items-center justify-center text-start ">
-            <h2 class=" text-2xl font-bold mb-5">Learn skills in</h2>
-            <hr class="m-5">
-            <form action="submit">
-                
-            </form>
+        <div class=" flex w-full  md:w-1/2 md:h-full flex-col items-center justify-center text-start text-yellow-600">
+            
+                <form action="" class="w-11/12 md:h-full flex flex-col justify-start items-start bg-gray-900 space-y-4 p-5">
+                  <h3 class="text-xl md:text-2xl font-lighter">Sign up</h3>
+              
+                  <label class="pm-5 " for="email"><h4>Email</h4></label>
+                  <input class="w-11/12 p-2 rounded-xl" type="text" placeholder="Enter Email" name="email" required>
+              
+                  <label for="psw"><h4>Password</h4></label>
+                  <input class="w-11/12 p-2 rounded-xl" type="password" placeholder="Enter Password" name="psw" required>
+              
+                  <button type="submit" class="bg-yellow-600 text-gray-900 p-2 rounded-xl">Login</button>
+                  
+                </form>
+              
             
         </div>
      
@@ -202,7 +211,7 @@
     </section>
 
     <footer class=" flex flex-col justify-center items-center bg-gray-900 w-100vw min-h-40vh pb-8 space-y-5"> 
-        <ul class=" flex text-yellow-400 text-xl space-x-5 w-auto justify-center mt-6">
+        <ul class=" flex flex-row flex-wrap text-yellow-600 md:text-xl space-x-5 w-auto justify-center mt-6">
             <li class="p-1"><a href="about.html">About us</a>  </li>
             <li class="p-1"><a href="community.html">Community</a>  </li>
             <li class="p-1"><a href="partners.html">Partners</a>  </li>
